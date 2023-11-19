@@ -57,7 +57,7 @@ export const Wallet = () => {
                     <div className={styles.balance_cont}>
                         <h1>Общий баланс: </h1>
 
-                        <div className={styles.total_balance}>₽ {totalBalance}</div>
+                        <div className={styles.total_balance}>₽ <span>{totalBalance}</span></div>
                     </div>
 
                     <div className={cn(styles.flex_hor, styles.jc_center)}>

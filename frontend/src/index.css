@@ -30,17 +30,13 @@ body {
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
   background: var(--background);
+  color: var(--white);
 
   --white: #FFFFFF;
   --background: #10131A;
   --dark_gray_v2: #292E40;
   --background_cards: #171A25;
   --background-gradient: linear-gradient(234deg, #E495FF 6.25%, #824BFE 95.99%);
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 .button {
@@ -60,17 +56,4 @@ h1 {
 .button:focus,
 .button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
