@@ -1,0 +1,128 @@
+.wallet_container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+
+
+  & .balance_container {
+    background: var(--background-gradient);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  & .user_card {
+    display: flex;
+    padding: 0 6px;
+    align-items: center;
+    gap: 9px;
+    border-radius: 100px;
+    background: rgba(16, 19, 26, 0.30);
+    cursor: pointer;
+
+    & img {
+      width: 44px;
+      height: 44px;
+      border-radius: 22px;
+    }
+  }
+
+  & .notify {
+    display: flex;
+    padding: 12px 20px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.30);
+  }
+
+  & h1 {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-block-end: 0rem;
+  }
+
+  & main {
+    margin: 0.5rem;
+  }
+  & .title_container {
+
+    & button {
+      background: none;
+      border: 1px solid #7264FF;
+      outline: none;
+      color: #7264FF;
+      font-family: Poppins, sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      padding: 5px 10px;
+      border-radius: 100px;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+
+      &:hover {
+        background: #7264FF;
+        color: var(--white);
+      }
+    }
+  }
+
+  & h2 {
+    color: var(--white, #FFF);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: start;
+  }
+
+  & .balance_cont {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  & .total_balance {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: start;
+
+    & p {
+      margin-block-start: 0.2rem;
+    }
+  }
+}
+
+.flex_hor {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.column {
+  width: 100%;
+  flex-direction: column;
+}
+
+.jc_center {
+  justify-content: center;
+}
+
+.jc_between {
+  justify-content: space-between;
+}
