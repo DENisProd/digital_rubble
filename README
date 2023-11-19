@@ -1,6 +1,8 @@
-HumanBrain 4.0 хакатон ИуБИП
+HumanBrain 4.0 хакатон ИуБИП. Команда "DarkSecrets"
 
 Цифровой рубль.
+
+URL: https://dev.darksecrets.ru/
 
 backend: Fastify JS, MongoDB, NodeJS
 frontend: React, Redux Tool kit
